@@ -60,6 +60,13 @@ body.business-theme {
   display: inline-block;
 }
 
+/* Hide BuyCoffee button in About section on desktop for Banking PC */
+@media (min-width: 769px) {
+  .about-section .buycoffee-widget {
+    display: none;
+  }
+}
+
 .buycoffee-widget img {
   display: block;
   width: auto;
@@ -69,20 +76,15 @@ body.business-theme {
 
 /* Mobile-only BuyCoffee button under Home buttons */
 .buycoffee-mobile {
-  display: none;
+  display: none; /* Hidden by default on desktop */
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .buycoffee-mobile img {
   width: 156px;
   height: 40px;
-}
-
-/* Exact colorization overlay to match theme color */
-.buycoffee-mobile {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .buycoffee-mobile::after {
   content: "";
