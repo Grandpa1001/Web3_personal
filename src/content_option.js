@@ -173,6 +173,13 @@ const industryContent = {
                 link: "https://donly-stylus.vercel.app/",
                 github: "https://github.com/Grandpa1001/Donly-Stylus",
             },
+            {
+                img: "/assets/images/dane.testowe.png",
+                title: "Dane Testowe",
+                shortDescription: "Generator danych testowych",
+                description: "Platforma do generowania danych testowych takich jak PESEL, NIP, REGON, adresy, numery telefonów i inne dane potrzebne do testowania aplikacji. Narzędzie przydatne dla developerów i testerów.",
+                link: "https://dane-testowe.netlify.app/",
+            },
         ],
     },
     business: {
@@ -452,6 +459,11 @@ const dataportfolio = [{
         img: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=300&fit=crop",
         description: "Donly - Marketplace na zwiększenie transparentności darowizn.",
         link: "https://donly-stylus.vercel.app/",
+    },
+    {
+        img: "/assets/images/dane.testowe.png",
+        description: "Dane Testowe - Generator danych testowych takich jak PESEL, NIP, REGON, adresy i numery telefonów.",
+        link: "https://dane-testowe.netlify.app/",
     },
 ];
 
