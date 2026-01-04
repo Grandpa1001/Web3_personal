@@ -180,6 +180,13 @@ const industryContent = {
                 description: "Platforma do generowania danych testowych takich jak PESEL, NIP, REGON, adresy, numery telefonów i inne dane potrzebne do testowania aplikacji. Narzędzie przydatne dla developerów i testerów.",
                 link: "https://dane-testowe.netlify.app/",
             },
+            {
+                img: "/assets/images/theconfigurator.png",
+                title: "TheConfigurator",
+                shortDescription: "Gra MUD korpo",
+                description: "Gra wykorzystująca terminalowy vibe oraz historię Karola Nowaka, który musi poradzić sobie w trudnym świecie korpo i być zdolnym w swojej pierwszej pracy.",
+                link: "https://theconfigurator.netlify.app/",
+            },
         ],
     },
     business: {
@@ -464,6 +471,11 @@ const dataportfolio = [{
         img: "/assets/images/dane.testowe.png",
         description: "Dane Testowe - Generator danych testowych takich jak PESEL, NIP, REGON, adresy i numery telefonów.",
         link: "https://dane-testowe.netlify.app/",
+    },
+    {
+        img: "/assets/images/theconfigurator.png",
+        description: "TheConfigurator - Gra MUD korpo wykorzystująca terminalowy vibe oraz historię Karola Nowaka, który musi poradzić sobie w trudnym świecie korpo i być zdolnym w swojej pierwszej pracy.",
+        link: "#",
     },
 ];
 
